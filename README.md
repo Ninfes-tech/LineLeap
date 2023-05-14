@@ -1,4 +1,3 @@
 # LineLeap
-Nesse commit, entreguei apenas um cabeçalho. Porém ele é responsivo, 
-muda de acordo com o tamanho da tela, por exemplo, se ele é aberto no celular
-um botão aparece no lugar dos links.
+Implementando a interface crua do LineLeap, ou seja, apenas com html,
+css e javascript. Ainda não há a interação das tabelas.
