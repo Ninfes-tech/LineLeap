@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,48 +10,66 @@
     <link rel="stylesheet" href="css/index.css">
 
 </head>
+
 <body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-               <h1>
-                LineLeap
-               </h1>
+                <h1>
+                    LineLeap
+                </h1>
             </div>
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Sobre o LineLeap</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
                 </ul>
             </div>
-            
+
+            <!--           
             <div class="login-button">
                 <button>
                     <a href="#">Entrar</a>
                 </button>
             </div>
+            -->
+
             <div class="mobile-menu-icon">
                 <button onclick="menuShow()">
-                    <img class="icon" src="imgs/menu_white_36dp.svg" >
+                    <img class="icon" src="imgs/menu_white_36dp.svg">
                 </button>
             </div>
 
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Sobre o LineLeap</a></li>
             </ul>
+            <!--
             <div class="login-button">
                 <button>
                     <a href="#">Entrar</a>
                 </button>
             </div>
+            -->
         </div>
     </header>
+    <div class="bloco1-container">
+        <div class="bloco1-title">
+            <h4>
+                SELECIONAR ALGORITMO
+            </h4>
+        </div>
+        <div class="bloco1-select">
+            <form>
+                <input type="radio" name="bloco1-filas" value="2">Múltiplas Filas (2 filas)
+                <input type="radio" name="bloco1-filas" value="3">Múltiplas Filas (3 filas)
+            </form>
+        </div>
+    </div>
     <script src="js/index.js"></script>
 </body>
+
 </html>

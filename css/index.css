@@ -8,7 +8,7 @@
 
 header{
     background-color: #8297E2;
-    box-shadow: 0px 1px 7px #000000;
+
 }
 
 .nav-bar{
@@ -44,7 +44,7 @@ header{
 
 .nav-link{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ffffff;
     font-weight: 400;
 }
@@ -110,3 +110,26 @@ header{
         display: block;
     }
 }
+
+.bloco1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 1rem auto;
+  }
+  
+  .bloco1-title {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .bloco1-select {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  
+  .bloco1-select form {
+    display: inline-block;
+  }
