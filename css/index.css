@@ -6,130 +6,150 @@
     font-family: 'Nunito', sans-serif;
 }
 
-header{
+header {
     background-color: #8297E2;
 
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6.5rem;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
-    
+
 }
 
-.logo h1{
+.logo h1 {
     color: #ffffff;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     align-items: center;
 }
 
-.nav-list ul{
-    display:flex;
+.nav-list ul {
+    display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.nav-item{
-    margin: 0rem 1rem; 
+.nav-item {
+    margin: 0rem 1rem;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-size: 1rem;
     color: #ffffff;
     font-weight: 400;
 }
 
-.login-button button{
-    border:none;
+.login-button button {
+    border: none;
     background-color: #DDE4FF;
     padding: 0.5rem 2rem;
     border-radius: 10px;
 }
 
-.login-button button a{
+.login-button button a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 500;
     font-size: 1rem;
 }
 
-.mobile-menu-icon{
+.mobile-menu-icon {
     display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
 
-@media screen and (max-width:730px){
-    .nav-bar{
+@media screen and (max-width:730px) {
+    .nav-bar {
         padding: 1.5rem 4rem;
     }
-    .nav-item{
+
+    .nav-item {
         display: none;
     }
-    .login-button{
+
+    .login-button {
         display: none;
     }
-    .mobile-menu-icon{
+
+    .mobile-menu-icon {
         display: block;
     }
-    .mobile-menu-icon button{
+
+    .mobile-menu-icon button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
-    .mobile-menu ul{
+
+    .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
-    .mobile-menu .nav-item{
+
+    .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
     }
-    .mobile-menu .login-button{
+
+    .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
     }
-    .mobile-menu .login-button button{
+
+    .mobile-menu .login-button button {
         width: 100%;
     }
-    .open{
+
+    .open {
         display: block;
     }
 }
 
 .bloco1-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around; 
     flex-wrap: wrap;
     max-width: 800px;
-    margin: 1rem auto;
-  }
-  
-  .bloco1-title {
+    margin: 2rem auto;
+}
+
+.bloco1-title {
     width: 100%;
-    text-align: center;
-  }
-  
-  .bloco1-select {
+
+}
+
+.bloco1-select {
     width: 100%;
-    text-align: center;
     margin-top: 1rem;
-  
-  .bloco1-select form {
+}
+
+.bloco1-select form {
     display: inline-block;
-  }
+}
+
+.bloco1-select-blue{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    padding: 1rem;
+}
+
+.bloco1-radio-azul{
+    margin-left: auto;
+    background-color:#DDE4FF;
+}
