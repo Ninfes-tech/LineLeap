@@ -65,7 +65,7 @@ body {
     text-align: right;
     left: 25%;
     transform: translateX(-50%);
-    top: 38%;
+    top: 32%;
     background: rgba(70, 102, 215, 0.3);
     
     padding: 2rem;
@@ -165,7 +165,7 @@ body {
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .planoFundo .conteudo {
         width: 100%;
         padding: 2em;
