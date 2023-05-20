@@ -186,7 +186,7 @@ h4 {
     padding-top: 3rem;
 }
 
-.button-azul {
+.bloco1-button-azul {
     color: #ffffff;
     display: flex;
     border: none;
@@ -217,7 +217,7 @@ footer {
 table {
     display: flexbox;
     border-collapse: collapse;
-    width: 60%;
+    width: 100%;
     font-weight: bold;
 }
 
@@ -231,16 +231,17 @@ tr:not(:last-child) td {
     border-bottom: none;
 }
 
-tr,td {
+tr,
+td {
     border-bottom: 1px solid black;
 }
 
-.balls{
+.balls {
     width: 15px;
     height: auto;
 }
 
-.bloco2-container{
+.bloco2-container {
     display: flex;
     justify-content: safe;
     flex-wrap: wrap;
@@ -251,9 +252,10 @@ tr,td {
     margin: 2rem auto;
     padding: 2rem;
     border-radius: 10px;
+    
 }
 
-#bloco3-button-azul{
+#bloco2-button-azul {
     display: flex;
     height: 3rem;
     color: #ffffff;
@@ -266,8 +268,11 @@ tr,td {
     width: 10rem;
     cursor: pointer;
     text-align: center;
+    margin: 10px;
+
 }
-#bloco3-button-vermelho{
+
+#bloco2-button-vermelho {
     display: flex;
     height: 3rem;
     color: #ffffff;
@@ -279,4 +284,29 @@ tr,td {
     width: 10rem;
     padding: 1rem;
     cursor: pointer;
+    margin: 10px;
+    
+}
+
+.bloco2-buttons {
+    display: flex;
+    margin-left: 14.4rem;
+    margin-top: 3rem;
+
+}
+.bloco2-buttons button p {
+    margin: auto;
+}
+.bloco3-container{
+    display: flex;
+    justify-content: safe;
+    flex-wrap: wrap;
+    max-width: 800px;
+    background: rgba(70, 102, 215, 0.1);
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    
 }
