@@ -11,6 +11,12 @@
 
 const { json } = require('express');
 const express = require('express');
+const FilaRep = require('./repository/filasRepository/FilaRep');
+const ProcessoRep = require('./repository/filasRepository/ProcessoRep');
+
+const Fila = FilaRep;
+const Processo = ProcessoRep;
+const selecionarFila = require('./public/scripts/seleciona');
 
 const app = express();
 const port = 3000;
@@ -20,6 +26,17 @@ app.use(express.json());
 app.use(express.urlencoded({
   extended: true
 }));
+
+function main() {
+    const fila = new Fila();
+    
+
+
+
+  }
+  
+  main();
+
 
 
 app.listen(port, () => {
