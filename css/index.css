@@ -3,12 +3,12 @@
 * {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
 }
 
 header {
     background-color: #8297E2;
-
 }
 
 .nav-bar {
@@ -20,7 +20,6 @@ header {
 .logo {
     display: flex;
     align-items: center;
-
 }
 
 .logo h1 {
@@ -69,55 +68,6 @@ header {
 
 .mobile-menu {
     display: none;
-}
-
-@media screen and (max-width:730px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    .login-button {
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-
-    .open {
-        display: block;
-    }
 }
 
 .bloco1-container {
@@ -207,32 +157,22 @@ footer {
     font-size: 16px;
 }
 
-@media only screen and (max-width: 480px) {
-    footer {
-        padding: 10px;
-        font-size: 14px;
-    }
-}
-
 table {
-    display: flexbox;
     border-collapse: collapse;
     width: 100%;
     font-weight: bold;
 }
 
-th,
-td {
+th, td {
     text-align: left;
     padding: 10px;
 }
 
 tr:not(:last-child) td {
-    border-bottom: none;
+    border-bottom: n
 }
 
-tr,
-td {
+tr, td {
     border-bottom: 1px solid black;
 }
 
@@ -259,30 +199,25 @@ td {
     display: flex;
     height: 3rem;
     color: #ffffff;
-    display: flex;
     border: none;
     padding: 0.5rem 2rem;
     background: #4666D7;
     border-radius: 100px;
-    padding: 1rem;
     width: 10rem;
     cursor: pointer;
     text-align: center;
     margin: 10px;
-
 }
 
 #bloco2-button-vermelho {
     display: flex;
     height: 3rem;
     color: #ffffff;
-    display: flex;
     border: none;
     padding: 0.5rem 2rem;
     background: #E72A2A;
     border-radius: 100px;
     width: 10rem;
-    padding: 1rem;
     cursor: pointer;
     margin: 10px;
     
@@ -294,9 +229,11 @@ td {
     margin-top: 3rem;
 
 }
+
 .bloco2-buttons button p {
     margin: auto;
 }
+
 .bloco3-container{
     display: flex;
     justify-content: safe;
@@ -310,3 +247,238 @@ td {
     border-radius: 10px;
     
 }
+
+@media only screen and (max-width: 850px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .bloco1-container{
+        max-width: 600px;
+    }
+
+    .bloco1-title{
+        margin-left: 16%;
+    }
+
+    .bloco1-select{
+        margin-left: 7rem;
+    }
+
+    .bloco1-select .bloco1-button-azul{
+        margin-left: 6rem;
+    }
+
+    .bloco2-container{
+        max-width: 600px;
+    }
+
+    .bloco2-buttons{
+        margin-left: 21%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .bloco1-container{
+        max-width: 430px;
+    }
+    
+    .bloco1-title{
+        margin-left: 6%;
+    }
+
+    .bloco1-select{
+        margin-left: 6%;
+    }
+
+    .bloco1-select .bloco1-button-azul{
+        margin-left: 32%;
+    }
+
+    .bloco2-container{
+        max-width: 430px;
+    }
+
+    .bloco2-buttons{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .bloco1-container{
+        max-width: 275px;
+    }
+    
+    .bloco1-title{
+        margin-left: 4%;
+    }
+
+    .bloco1-select{
+        margin-left: 4%;
+    }
+
+    .bloco1-filas{
+        margin-top: 5%;
+        margin-left: 0.3%;
+    }
+
+    .bloco1-lista-azul{
+        margin-top: 6%;
+    }
+
+    .bloco1-select .bloco1-button-azul{
+        margin-left: 25%;
+    }
+
+    .bloco2-container{
+        max-width: 300px;
+        overflow-x: auto;
+    }
+
+    .bloco2-buttons{
+        margin-left: 2%;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+    
