@@ -1,5 +1,4 @@
 function selecionarFila(fila, radio) {
-   // var radioFIFO = document.querySelector('input[name="bloco1-filas-tipo1"]');
     var filaSelecionada = fila;
     var radioValue = radio;
 
@@ -29,5 +28,4 @@ function selecionarFila(fila, radio) {
     }
   }
 
-  //exports.selecionarFila = selecionarFila;
   
