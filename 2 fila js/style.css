@@ -1,0 +1,98 @@
+.processo {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+    border-radius: 20px;
+  }
+
+  .finalizados {
+    margin-top: 20px;
+  }
+
+  .processo-1 {
+    background-color: red;
+   
+  }
+
+  .processo-2 {
+    background-color: blue;
+    
+  }
+
+  .processo-3 {
+    background-color: green;
+ 
+  }
+
+  .processo-4 {
+    background-color: rgb(226, 240, 41);
+   
+  }
+
+  .processo-5 {
+    background-color: rgb(128, 0, 70);
+   
+  }
+
+  .processo-6 {
+    background-color: rgb(202, 81, 50);
+    
+  }
+
+  .processo-7 {
+    background-color: rgb(255, 123, 0);
+   
+  }
+
+  .processo-8 {
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+  .processo-9 {
+    background-color: rgba(81, 82, 168, 0.61);
+   
+  }
+
+  .processo-10 {
+    background-color: rgb(172, 75, 192);
+  
+  }
+
+  .processo-11 {
+    background-color: rgb(0, 0, 0);
+  
+  }
+  .processo-12 {
+    background-color: rgb(75, 192, 153);
+  
+  }
+  .processo-13 {
+    background-color: rgb(151, 192, 75);
+  
+  }
+
+  .processo-14 {
+    background-color: rgb(192, 108, 75);
+  
+  }
+
+  .processo-15 {
+    background-color: rgb(130, 75, 192);
+  
+  }
+  button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color:rgba(45, 66, 141, 0.651);;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 5px 2px 5px 2px;
+  }
