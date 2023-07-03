@@ -16,9 +16,8 @@ body {
   text-decoration: none;
 }
 
-
 header {
-    background-color: #8297E2;
+  background-color: #8297E2;
 }
 
 .nav-bar {
@@ -220,31 +219,29 @@ ol {
 }
 
 @media only screen and (min-width: 680px) and (max-width: 800px){
-  #primeiro{
-    width: 600px;
-    height: 1100px;
+  #primeiro {
+    width: 700px;
+    height: 1300px;
 
-    margin-top: 10px;
+    margin-top: 40px;
     top: 10px;
-    padding: 25px;
-
-    font-size: 19px;
+    padding: 30px;
   }
 
   p{
-    top: 2%;
+    top: 10%;
   }
 
   ol{
-    top: 3%;
+    top: 11%;
   }
 
   #h1{
-    top: 0%;
+    top: 7%;
   }
 
   #logo1{
-    display: none;
+    width: 420px;
   }
 
   .navbar li a{
@@ -339,9 +336,4 @@ ol {
     .open {
         display: block;
     }
-}
-      
-      
-      
-      
-      
+}      
