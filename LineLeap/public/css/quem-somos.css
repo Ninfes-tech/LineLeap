@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,18 +11,18 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.plano-fundo{
+.plano-fundo {
     display: flex;
     position: fixed;
     object-fit: cover;
     justify-content: center;
     align-items: center;
 }
-  
-.plano-fundo video{
+
+.plano-fundo video {
     position: fixed;
     object-fit: cover;
-    
+
     left: 0%;
     top: 0%;
     width: 100%;
@@ -92,7 +92,7 @@ header {
 .mobile-menu {
     display: none;
 }
-  
+
 /*Colunas*/
 #img_redondo_esq {
     position: absolute;
@@ -100,7 +100,7 @@ header {
     height: 190px;
     left: 16px;
     top: 14px;
-  
+
     border-radius: 200px;
 }
 
@@ -200,23 +200,21 @@ header {
     color: #000000;
 }
 
-#h1_dir{
+#h1_dir {
     position: absolute;
     width: auto;
     height: 30px;
     left: 90px;
     top: 25px;
-    
+
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
     line-height: 30px;
-    /* identical to box height */
-    
-    
+
     color: #000000;
-    }
+}
 
 h3 {
     position: absolute;
@@ -267,52 +265,407 @@ h4 {
 }
 
 /*Scroll*/
-ejs::-webkit-scrollbar{
+ejs::-webkit-scrollbar {
     width: 0.5rem;
 }
-  
-ejs::-webkit-scrollbar-track{
+
+ejs::-webkit-scrollbar-track {
     background-color: transparent;
 }
-  
-ejs::-webkit-scrollbar-thumb{
+
+ejs::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
     border-radius: 5rem;
 }
 
 /*Resposividade*/
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width: 700px) and (max-width: 850px){
+    header{
+        height: auto;
+    }
     .nav-bar {
         padding: 1.5rem 4rem;
     }
 
+    #primeiro{
+        width: 670px;
+        height: 220px;
+    }
+
+    #segundo{
+        width: 670px;
+        height: 220px;
+    }
+    
+    #img_redondo_dir{
+        width: 160px;
+        height: 160px;
+        top: 25px;
+        left: 73%;
+
+    }
+
+    #terceiro{
+        width: 670px;
+        height: 220px;
+    }
+
+    #quarto{
+        width: 670px;
+        height: 220px;
+    }
+
+    #quinto{
+        width: 670px;
+        height: 220px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px){
+    header{
+        height: auto;
+    }
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    
     .nav-item {
         display: none;
     }
-
+    
     .mobile-menu-icon {
         display: block;
     }
-
+    
     .mobile-menu-icon button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
-
+    
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
-
+    
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
     }
-
+    
     .open {
         display: block;
+    }
+
+    #primeiro{
+        width: 470px;
+        height: 200px;
+    }
+
+    #img_redondo_esq{
+        width: 140px;
+        height: 140px;
+        top: 20px;
+        left: 12px;
+    }
+
+    #h1_esq{
+         left: 160px;
+         font-size: 25px;
+    }
+
+    #h3_esq{
+        left: 160px;
+        font-size: 20px;
+    }
+
+    #h4_esq{
+        left: 160px;
+        font-size: 15px;
+    }
+
+    #segundo{
+        width: 470px;
+        height: 200px;
+    }
+
+    #h1_dir{
+        left: 55px;
+    }
+
+    #img_redondo_dir{
+        width: 140px;
+        height: 140px;
+        top:25px;
+        left: 322px;
+    }
+
+    h3{
+        left: 55px;
+        font-size: 20px;
+    }
+
+    h4{
+        left: 55px;
+        font-size: 15px;
+    }
+
+    #terceiro{
+        width: 470px;
+        height: 200px;
+    }
+
+    #quarto{
+        width: 470px;
+        height: 200px;
+    }
+
+    #quinto{
+        width: 470px;
+        height: 200px;
+    }
+
+    #sep{
+        top: 85px;
+        left: 160px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 650px){
+    header{
+        height: auto;
+    }
+
+    .nav-bar {
+        padding: 1.5rem 6rem;
+    }
+    
+    .nav-item {
+        display: none;
+    }
+    
+    .mobile-menu-icon {
+        display: block;
+    }
+    
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    
+    .open {
+        display: block;
+    }
+
+    .logo h1{
+        margin-top: 2%;
+    }
+
+    #primeiro{
+        width: 450px;
+        height: 200px;
+    }
+
+    #img_redondo_esq{
+        width: 140px;
+        height: 140px;
+        top: 29px;
+        left: 12px;
+    }
+
+    #h1_esq{
+         left: 160px;
+         font-size: 25px;
+    }
+
+    #h3_esq{
+        left: 160px;
+        font-size: 20px;
+    }
+
+    #h4_esq{
+        left: 160px;
+        font-size: 15px;
+    }
+
+    #segundo{
+        width: 450px;
+        height: 200px;
+    }
+
+    #h1_dir{
+        left: 48px;
+    }
+
+    #img_redondo_dir{
+        width: 130px;
+        height: 130px;
+        top:30px;
+        left: 314px;
+    }
+
+    h3{
+        left: 48px;
+        font-size: 19px;
+    }
+
+    h4{
+        left: 48px;
+        font-size: 15px;
+    }
+
+    #terceiro{
+        width: 450px;
+        height: 200px;
+    }
+
+    #quarto{
+        width: 450px;
+        height: 200px;
+    }
+
+    #quinto{
+        width: 450px;
+        height: 200px;
+    }
+
+    #sep{
+        top: 85px;
+        left: 160px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 200px), (max-width: 400px), (max-width: 300px){
+    header{
+      height: auto;
+    }
+    .nav-bar {
+      padding: 1.5rem 6rem;
+    }
+  
+    .nav-item {
+      display: none;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  
+    .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+    }
+  
+    .open {
+      display: block;
+    }
+
+    .logo h1{
+        margin-top: 2%;
+    }
+
+    #primeiro{
+        width: 450px;
+        height: 200px;
+    }
+
+    #img_redondo_esq{
+        width: 140px;
+        height: 140px;
+        top: 29px;
+        left: 12px;
+    }
+
+    #h1_esq{
+         left: 160px;
+         font-size: 25px;
+    }
+
+    #h3_esq{
+        left: 160px;
+        font-size: 20px;
+    }
+
+    #h4_esq{
+        left: 160px;
+        font-size: 15px;
+    }
+
+    #segundo{
+        width: 450px;
+        height: 200px;
+    }
+
+    #h1_dir{
+        left: 50px;
+    }
+
+    #img_redondo_dir{
+        width: 130px;
+        height: 130px;
+        top:30px;
+        left: 314px;
+    }
+
+    h3{
+        left: 50px;
+        font-size: 20px;
+    }
+
+    h4{
+        left: 50px;
+        font-size: 15px;
+    }
+
+    #terceiro{
+        width: 450px;
+        height: 200px;
+    }
+
+    #quarto{
+        width: 450px;
+        height: 200px;
+    }
+
+    #quinto{
+        width: 450px;
+        height: 200px;
+    }
+
+    #sep{
+        top: 85px;
+        left: 160px;
+        font-size: 15px;
     }
 }

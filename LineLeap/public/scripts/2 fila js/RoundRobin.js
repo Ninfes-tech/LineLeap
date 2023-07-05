@@ -12,9 +12,9 @@ class Processo {
 }
 
 export class RoundRobin {
-  constructor(quantum) {
+  constructor() {
     this.fila = new Fila();
-    this.quantum = quantum;
+    this.quantum = 2;
 
   }
 

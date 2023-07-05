@@ -25,7 +25,6 @@ header {
 
 .logo h1 {
     color: #ffffff;
-
 }
 
 .nav-list {
@@ -77,8 +76,7 @@ header {
 h4 {
     padding-bottom: 1.5rem;
     padding-top: 1rem;
-    font-size: 22px;
-
+    font-size: 21px;
 }
 
 .bloco1-select {
@@ -95,8 +93,8 @@ h4 {
     font-size: 13px;
     background-color: #88a0f6ad;
     position: relative;
-    overflow:hidden;
-}
+    overflow: hidden;
+  }
   
   .bloco1-select .botao::before {
     content: '';
@@ -188,12 +186,10 @@ tr, td {
 
 .style-font-CPU{
     font-size: 18px;
-
 }
 
 .style-font-filas{
     font-size: 18px;
-
 }
 
 footer {
@@ -335,7 +331,11 @@ footer {
     }
 }
 
-@media only screen and (min-width: 330px) and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .logo h1{
+        margin-left: 1px;
+    }
+
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -384,7 +384,7 @@ footer {
     }
 
     .bloco1-container{
-       max-width: 250px;
+       max-width: 240px;
     }
     
     .bloco1-title{
@@ -392,7 +392,6 @@ footer {
     }
 
     h1{
-        font-size: 30px;
         margin-left: 2rem;
     }
 
@@ -401,8 +400,7 @@ footer {
     }
 
     h4{
-        font-size: 18px;
-        white-space: nowrap;
+        font-size: 15px;
     }
 
     .bloco1-select{
@@ -415,19 +413,27 @@ footer {
     }
 
     .bloco2-container{
-        max-width: 250px;
+        max-width: 240px;
         overflow-x: auto;
     }
 
     .bloco3-container{
-        max-width: 250px;
+        max-width: 240px;
         overflow-x: auto;
+    }
+
+    th, td {
+        text-align: left;
+        font-size: 10px;
+    }
+
+    tr, td {
+        border-bottom: 2px solid black;
     }
 
     footer {
         padding: 10px;
         font-size: 14px;
     }
-
       
 }

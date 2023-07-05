@@ -21,62 +21,62 @@ header {
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6.5rem;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo h1 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .nav-item {
-    margin: 0rem 1rem;
+  margin: 0rem 1rem;
 }
 
 .nav-link {
-    text-decoration: none;
-    font-size: 1rem;
-    color: #ffffff;
-    font-weight: 400;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .login-button button {
-    border: none;
-    background-color: #DDE4FF;
-    padding: 0.5rem 2rem;
-    border-radius: 10px;
+  border: none;
+  background-color: #DDE4FF;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
 }
 
 .login-button button a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .mobile-menu-icon {
-    display: none;
+  display: none;
 }
 
 .mobile-menu {
-    display: none;
+  display: none;
 }
 
 ejs::-webkit-scrollbar{
@@ -91,14 +91,6 @@ ejs::-webkit-scrollbar-thumb{
   border-radius: 5rem;
 }
 
-section{
-  padding: 50px 100px;
-}
-
-.logo img{
-  width: 200px;
-}
-  
 #logo1 {
   position: absolute;
   width: 520px;
@@ -161,8 +153,8 @@ ol {
   color: white;
 }
 
-
-@media only screen and (min-width: 900px) and (max-width: 1100px)  {
+/*Responsividade*/
+@media only screen and (min-width: 900px) and (max-e: 1100px)  {
   #primeiro {
     width: 900px;
     height: 1200px;
@@ -191,6 +183,10 @@ ol {
 }
 
 @media only screen and (min-width: 800px ) and (max-width: 900px){
+  header{
+    width: 879px;
+  }
+  
   #primeiro {
     width: 800px;
     height: 1200px;
@@ -219,6 +215,10 @@ ol {
 }
 
 @media only screen and (min-width: 680px) and (max-width: 800px){
+  header{
+    width: 780px;
+  }
+  
   #primeiro {
     width: 700px;
     height: 1300px;
@@ -253,11 +253,13 @@ ol {
 
 }
 
-@media only screen and (min-width: 300px) and (max-width: 680px){
+@media only screen and (min-width: 500px) and (max-width: 680px){
+  
   #primeiro{
-    width: 470px;
+    width: 480px;
     height: 1650px;
 
+    left: 1rem;
     margin-top: 25px;
     top: 10px;
     padding: 25px;
@@ -287,53 +289,122 @@ ol {
     font-size: 14px;
   }
 
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .open {
+    display: block;
+  }
+
+}   
+
+@media only screen and (min-width: 200px) and (max-width: 500px){
+  
+  header{
+    width: 495px;
+  }
+
+  #primeiro{
+    width: 400px;
+    height: 1880px;
+
+    margin-top: 25px;
+    margin-left: 1.7rem;
+    top: 10px;
+    padding: 25px;
+
+    font-size: 20px;
+  }
+
+  p{
+    top: 7%;
+  }
+
+  ol{
+    top: 8%;
+  }
+
+  #h1{
+    top: 5%;
+  }
+
+  #logo1{
+    width: 450px;
+  }
+
+  .navbar li a{
+    top: 12px;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .nav-bar {
+    padding: 1.5rem 6rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.5rem;
+  }
+
+  .open {
+    display: block;
+  }
+
 }
-      
-@media only screen and (max-width: 850px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    .login-button {
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-
-    .open {
-        display: block;
-    }
-}      
